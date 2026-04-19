@@ -15,7 +15,6 @@ namespace OpenShockSaber
         {
             Log = logger;
             
-            // This line specifically creates "UserData/OpenShockSaber.json"
             OpenShockSaberConfig.Instance = conf.Generated<OpenShockSaberConfig>();
 
             zenjector.Install(Location.App, container => {
